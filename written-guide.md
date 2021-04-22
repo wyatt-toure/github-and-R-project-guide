@@ -68,9 +68,23 @@ The `docs/` and `figs/` directory are always populated with outputs produced in 
 
 ## Coding
 
-For this guide I am going to assume you are familiar with R but I will give a brief overview of R here regardless. R is a programming language which is specialised for data manipulation and analysis. With R one can write scripts that executes commands for XYZ. This means all commands that lead to your final results can be recorded within the script and that produces your analysis providing a record of the steps you took.
+For this guide I am going to assume you are familiar with R but I will give a brief overview of R here regardless. R is a programming language which is specialised for data manipulation and analysis. With R one can write scripts that executes commands for tidying, manipulating, modeling, and visualising data. This means all commands that lead to your final results can be recorded within the script and that produces your analysis providing a record of the steps you took.
 
-R is a functional programming language. Everything you do in R is done by calling functions. Typically you call functions on variables which have been assigned values.
+R is a functional programming language. Everything you do in R is done by calling functions. Typically you call functions on variables which have been assigned values. A simple example is below.
+
+``` {.r}
+# Assigning value to variable 
+variable_a <- 3
+variable_b <- 7
+
+# Calling the sum function on my variables
+sum(variable_a, variable_b)
+
+# Storing the output of a function in a variable
+variable_sum <- sum(variable_a, variable_b)
+```
+
+In the above code chunk I am assigning `variable_a` and `variable_b` the values 3 and 7 respectively. I then call the `sum()` function which, as the name suggests, sums the values that the two variables have been assigned. Functions produce outputs which themselves can be stored in variables. This is done by assigning the function call to the variable `variable_sum`. Without assigning a function call to a variable, an output may be produced in the console but not stored anywhere in your script for you to do more tasks with.
 
 ### Writing code
 
@@ -94,7 +108,7 @@ Modular code means that code is broken up into distinct components that are call
 
 There are steps that can be taken before data is even collected to make for a better documented project. Often experimental subjects are split into experimental treatments. You can programmatically assign individuals to different treatment based on the criteria your experiment depends upon [@coppock2019RandomizrEasytoUseTools]. This can help in making you think early on explicitly about your experimental design and serve as a record of your design decisions.
 
-Once individuals are assigned to treatments and data is being collected it is important to consider collecting the finest level of data possible. For example, if you wanted to determine whether fish weigh more than 10 grams, rather than record each fish as True (above 10 grams) or False (below 10 grams), recording the actual weight will provide more information in addition to allowing you to transform the data later. Transformations to a coarser level of analysis can always be done but it is not possible to go from a coarse level of analysis to a fine level of analysis if only the coarse data are collected.
+Once individuals are assigned to treatments and data is being collected it is important to consider collecting the finest level of data possible. For example, if you wanted to determine whether fish weigh more than 10 grams, rather than record each fish as True (above 10 grams) or False (below 10 grams), recording the actual weight will provide more information in addition to allowing you to transform the data later. An example more common in animal behaviour is documenting the position of an animal through time. If the position of an animal is only sampled every minute rather than every second you may be losing additional useful data. However, these decisions must be made in the context in your experiment. If it is substantially more difficult to get fine grain data but coarse grain data will do then coarse grain data may be sufficient. Transformations to a coarser level of analysis can always be done but it is not possible to go from a coarse level of analysis to a fine level of analysis if only the coarse data are collected.
 
 ### Tracking data transformations
 
@@ -108,13 +122,13 @@ In this case it is easy to lose track of how these files changed. This becomes e
 
 ### Version control
 
-As we saw in my awful data directory keeping tracking of different versions of file in our project is something we want to do but can be difficult to employ. An individual working on a project will produce several versions of different files and when they are sent off to collaborators even more alternative version of these files can be produced. To combat these issues we can make use of version control systems to manage continuously changing files within a directory. The most popular software used to do this is called *Git* [@blischak2016QuickIntroductionVersion]. With *Git* it becomes possible to take snapshots of your entire project directory. GitHub is a XYZ that allows one to store Git repositories online.
+As we saw in my awful data directory keeping tracking of different versions of file in our project is something we want to do but can be difficult to employ. An individual working on a project will produce several versions of different files and when they are sent off to collaborators even more alternative version of these files can be produced. To combat these issues we can make use of version control systems to manage continuously changing files within a directory. The most popular software used to do this is called *Git* [@blischak2016QuickIntroductionVersion]. With *Git* it becomes possible to take snapshots of your entire project directory. GitHub is a service provided by Microsoft that allows one to store *Git* repositories online.
 
-GitHub works by XYZ that is ABC with an action called a commit. Each time you commit a change you essential take a picture of the state of your entire repository. When committing changes you have to accompany the commit with a commit message. You will be tempted as a project goes on to have short uninformative commit messages such as "changes to file X". Resist this urge. Try to make commit messages as informative as possible it will aid tremendously if you have to go back through your commits to investigate a particular change.
+GitHub works by tracking changes that are made on your local *Git* directory with an action called a commit. Each time you commit a change you essential take a picture of the state of your entire repository. When committing changes you have to accompany the commit with a commit message. You will be tempted as a project goes on to have short uninformative commit messages such as "changes to file X". Resist this urge. Try to make commit messages as informative as possible it will aid tremendously if you have to go back through your commits to investigate a particular change.
 
 ### Metadata
 
-It is good practice for each of your projects to create what is known as a README file and store this alongside your project code and data. Inside a README I tend to have a summary of the project, an explanation of the directory structure, descriptions of the variables in the data set, and the R packages and package versions I used to conduct the analysis.
+It is good practice for each of your projects to create what is known as a README file and store this alongside your project code and data. Inside a README I tend to have a summary of the project, an explanation of the directory structure, descriptions of the variables in the data set, and the R packages and package versions I used to conduct the analysis. A useful tool for documenting the packages used in an analysis is the [reports](https://easystats.github.io/report/) package [@makowski2021AutomatedResultsReporting]. It allows you to report the name, version, and citation of the packages that you call in your script with the `library()` function and also reports the version of R you are using.
 
 ------------------------------------------------------------------------
 
