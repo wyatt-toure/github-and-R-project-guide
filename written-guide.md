@@ -74,7 +74,7 @@ R is a functional programming language. Everything you do in R is done by callin
 
 ### Writing code
 
-Good code should be simple, readable, and modular. Keeping a consistent style helps in keeping your code readable. I myself try to conform to the [tidyverse style guidelines](https://style.tidyverse.org/) when writing R code. To keep your code readable try to have clear, precise, and meaningful variable and function names. A simple example is below.
+Good code should be simple, readable, and modular. Keeping a consistent style helps in making your code readable. I myself try to conform to the [tidyverse style guidelines](https://style.tidyverse.org/) when writing R code. To keep your code readable try to have clear, precise, and meaningful variable and function names. A simple example is below.
 
 ``` {.r}
 # Reading in data 
