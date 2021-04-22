@@ -1,1 +1,1 @@
-# github-and-R-project-guide
+# Starter's Guide for GitHub and Rmarkdown
