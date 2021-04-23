@@ -1,5 +1,5 @@
 ---
-title: "Resources for programming project management"
+title: "Resources for R programming project management"
 output:
   html_document:
     includes:
@@ -24,7 +24,7 @@ knit: (function(input, ...) {
 
 ## Overview
 
-On this page I list software that I find particularly useful for managing programming projects. I would be happy to add additional resources people think should be on this list. 
+On this page I list software and guides that I find/have found particularly useful for managing programming projects. I would be happy to add additional resources people think should be on this list. 
 
 ## Software documentation
 
