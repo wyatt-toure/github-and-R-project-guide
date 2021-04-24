@@ -242,6 +242,8 @@ e-mail: <code>m_wyatt.toure@mail.mcgill.ca</code>
 <ul>
 <li><a href="https://happygitwithr.com/index.html">Happy Git and GitHub for the useR</a> is a comprehensive introductory guide to using Git and GitHub with R, Rstudio, and Rmarkdown which is particularly suited to those that will be focusing on R programming.</li>
 <li><a href="https://git-scm.com/book/en/v2">Pro Git</a> is a free online book which provides a great foundation in Git and instruction on how to use GitHub without a focus on any particular programming language.</li>
+<li><a href="https://docs.github.com/en/desktop">GitHub Desktop app documentation</a></li>
+<li>Ten Simple Rules for Taking Advantage of Git and GitHub <span class="citation">(<a href="#ref-perez-riverol2016TenSimpleRules" role="doc-biblioref">Perez-Riverol et al., 2016</a>)</span></li>
 </ul>
 </div>
 <div id="software-documentation" class="section level2">
@@ -249,15 +251,17 @@ e-mail: <code>m_wyatt.toure@mail.mcgill.ca</code>
 <ul>
 <li><a href="https://easystats.github.io/report/">report</a> is an R package that can produce the software, software versions, and R version used in an analysis script with <code>report::report(sessionInfo())</code>.</li>
 <li><a href="https://rstudio.github.io/renv/">renv</a> is an R package that catalogs package dependencies. This package can allow someone to download your project repository and run <code>renv::restore()</code> to download the specific package versions used in your analysis <span class="citation">(<a href="#ref-ushey2021RenvProjectEnvironments" role="doc-biblioref">Ushey, 2021</a>)</span>.</li>
-<li><a href="https://github.com/baumer-lab/fertile">fertile</a> is an R package that has several function that check different aspects of reproducibility such as whether files are self contained, what the project software dependencies are, produces install scripts for dependencies, and much more <span class="citation">(<a href="#ref-bertin2021CreatingOptimalConditions" role="doc-biblioref">Bertin and Baumer, 2021</a>)</span>.</li>
+<li><a href="https://github.com/baumer-lab/fertile">fertile</a> is an R package that has several functions that check different aspects of reproducibility such as whether files are self contained, what the project software dependencies are, produces install scripts for dependencies, and much more <span class="citation">(<a href="#ref-bertin2021CreatingOptimalConditions" role="doc-biblioref">Bertin and Baumer, 2021</a>)</span>.</li>
 <li><a href="http://ropenscilabs.github.io/r-docker-tutorial/">r-docker-tutorial</a> is an introduction to using Docker for users of R and Rstudio by <a href="https://ropensci.org/about/">rOpenSci</a>.</li>
+<li><a href="https://liftr.me/">liftr</a> is an R package which will generate docker containers from Rmarkdown files <span class="citation">(<a href="#ref-nust2020RockerversePackagesApplicationsa" role="doc-biblioref">Nüst et al., 2020</a>)</span>.</li>
 </ul>
 </div>
-<div id="workflow-management" class="section level2">
-<h2>Workflow management</h2>
+<div id="work-flow-management" class="section level2">
+<h2>Work flow management</h2>
 <ul>
 <li><a href="https://reproducible.predictiveecology.org/">reproducible</a> is an R package that makes it easier to re-run code from scratch multiple times. The reason you would want this package if you work with very large raw data sets (<em>e.g.</em> spatial data for ecological niche models or bioinformatic data) that have very long pre processing steps <span class="citation">(<a href="#ref-mcintire2021ReproducibleSetTools" role="doc-biblioref">McIntire and Chubaty, 2021</a>)</span>.</li>
 <li><a href="https://docs.ropensci.org/drake/">drake</a> is an R package which helps keep results up to date with the underlying code and data <span class="citation">(<a href="#ref-landau2018DrakePackagePipeline" role="doc-biblioref">Landau, 2018</a>)</span>.</li>
+<li><a href="http://flow-r.github.io/flowr/">flowr</a> is an R package which helps design and implement complex analysis pipelines (think big data like bioinformatics).</li>
 </ul>
 </div>
 <div id="reproducibility-guides" class="section level2">
@@ -289,6 +293,12 @@ Landau WM. 2018. The drake r package: A pipeline toolkit for reproducibility and
 </div>
 <div id="ref-mcintire2021ReproducibleSetTools" class="csl-entry">
 McIntire EJB, Chubaty AM. 2021. Reproducible: A set of tools that enhance reproducibility beyond package management.
+</div>
+<div id="ref-nust2020RockerversePackagesApplicationsa" class="csl-entry">
+Nüst D, Eddelbuettel D, Bennett D, Cannoodt R, Clark D, Daróczi G, Edmondson M, Fay C, Hughes E, Kjeldgaard L, al. et. 2020. The rockerverse: Packages and applications for containerisation with r. <em>The R Journal</em> <strong>12</strong>:437. doi:<a href="https://doi.org/10.32614/RJ-2020-007">10.32614/RJ-2020-007</a>
+</div>
+<div id="ref-perez-riverol2016TenSimpleRules" class="csl-entry">
+Perez-Riverol Y, Gatto L, Wang R, Sachsenberg T, Uszkoreit J, Leprevost F da V, Fufezan C, Ternent T, Eglen SJ, Katz DS, al. et. 2016. Ten simple rules for taking advantage of git and GitHub. <em>PLOS Computational Biology</em> <strong>12</strong>:e1004947. doi:<a href="https://doi.org/10.1371/journal.pcbi.1004947">10.1371/journal.pcbi.1004947</a>
 </div>
 <div id="ref-ushey2021RenvProjectEnvironments" class="csl-entry">
 Ushey K. 2021. Renv: Project environments.

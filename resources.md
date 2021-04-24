@@ -35,18 +35,22 @@ On this page I list software and guides that I find/have found particularly usef
 
 -   [Happy Git and GitHub for the useR](https://happygitwithr.com/index.html) is a comprehensive introductory guide to using Git and GitHub with R, Rstudio, and Rmarkdown which is particularly suited to those that will be focusing on R programming.
 -   [Pro Git](https://git-scm.com/book/en/v2) is a free online book which provides a great foundation in Git and instruction on how to use GitHub without a focus on any particular programming language.
+-   [GitHub Desktop app documentation](https://docs.github.com/en/desktop)
+-   Ten Simple Rules for Taking Advantage of Git and GitHub [@perez-riverol2016TenSimpleRules]
 
-## Software documentation
+## Software documentation {#software-documentation}
 
 -   [report](https://easystats.github.io/report/) is an R package that can produce the software, software versions, and R version used in an analysis script with `report::report(sessionInfo())`.
 -   [renv](https://rstudio.github.io/renv/) is an R package that catalogs package dependencies. This package can allow someone to download your project repository and run `renv::restore()` to download the specific package versions used in your analysis [@ushey2021RenvProjectEnvironments].
--   [fertile](https://github.com/baumer-lab/fertile) is an R package that has several function that check different aspects of reproducibility such as whether files are self contained, what the project software dependencies are, produces install scripts for dependencies, and much more [@bertin2021CreatingOptimalConditions].
+-   [fertile](https://github.com/baumer-lab/fertile) is an R package that has several functions that check different aspects of reproducibility such as whether files are self contained, what the project software dependencies are, produces install scripts for dependencies, and much more [@bertin2021CreatingOptimalConditions].
 -   [r-docker-tutorial](http://ropenscilabs.github.io/r-docker-tutorial/) is an introduction to using Docker for users of R and Rstudio by [rOpenSci](https://ropensci.org/about/).
+-   [liftr](https://liftr.me/) is an R package which will generate docker containers from Rmarkdown files [@nust2020RockerversePackagesApplicationsa].
 
-## Workflow management
+## Work flow management
 
 -   [reproducible](https://reproducible.predictiveecology.org/) is an R package that makes it easier to re-run code from scratch multiple times. The reason you would want this package if you work with very large raw data sets (*e.g.* spatial data for ecological niche models or bioinformatic data) that have very long pre processing steps [@mcintire2021ReproducibleSetTools].
 -   [drake](https://docs.ropensci.org/drake/) is an R package which helps keep results up to date with the underlying code and data [@landau2018DrakePackagePipeline].
+-   [flowr](http://flow-r.github.io/flowr/) is an R package which helps design and implement complex analysis pipelines (think big data like bioinformatics).
 
 ## Reproducibility guides
 
