@@ -24,7 +24,12 @@ knit: (function(input, ...) {
 
 ## Overview
 
-On this page I list software and guides that I find/have found particularly useful for managing programming projects. I would be happy to add additional resources people think should be on this list. 
+On this page I list software and guides that I find/have found particularly useful for managing programming projects. I would be happy to add additional resources people think should be on this list. Many of these links are resources I used to help make this page so check out these more detailed resources if something was unclear or you want to learn even more. 
+
+## Git and GitHub
+
+- [Happy Git and GitHub for the useR](https://happygitwithr.com/index.html) is a comprehensive introductory guide to using Git and GitHub with R, Rstudio, and Rmarkdown
+-[Pro Git](https://git-scm.com/book/en/v2) is a free online book which provides a foundation in Git.
 
 ## Software documentation
 
@@ -41,7 +46,7 @@ On this page I list software and guides that I find/have found particularly usef
 
 - [rOpenSci Reproducibility in Science A Guide to enhancing reproducibility in scientific results and writing.](http://ropensci.github.io/reproducibility-guide/)
 - [The Turing Way](https://the-turing-way.netlify.app/welcome) is an extensive, open-source, community built guide for best practices in conducting reproducible, ethical, inclusive, and collaborative science. They go into much greater depth on several of the topics I have touched on in this guide. 
-- [R for Reproducible Scientific Analysis](http://swcarpentry.github.io/r-novice-gapminder/)
+- [R for Reproducible Scientific Analysis](http://swcarpentry.github.io/r-novice-gapminder/) contains the lesson materials foor a workshop that teaches fundamentals of programming in R (the focus is not on teaching statistical analysis). 
 - [r-docker-tutorial](http://ropenscilabs.github.io/r-docker-tutorial/)
 
 ## 
