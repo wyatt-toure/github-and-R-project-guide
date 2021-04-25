@@ -260,7 +260,7 @@ e-mail: <code>m_wyatt.toure@mail.mcgill.ca</code>
 <h2>Work flow management</h2>
 <ul>
 <li><a href="https://reproducible.predictiveecology.org/">reproducible</a> is an R package that makes it easier to re-run code from scratch multiple times. The reason you would want this package if you work with very large raw data sets (<em>e.g.</em> spatial data for ecological niche models or bioinformatic data) that have very long pre processing steps <span class="citation">(<a href="#ref-mcintire2021ReproducibleSetTools" role="doc-biblioref">McIntire and Chubaty, 2021</a>)</span>.</li>
-<li><a href="https://docs.ropensci.org/drake/">drake</a> is an R package which helps keep results up to date with the underlying code and data <span class="citation">(<a href="#ref-landau2018DrakePackagePipeline" role="doc-biblioref">Landau, 2018</a>)</span>.</li>
+<li><a href="https://docs.ropensci.org/targets/">targets</a> is an R package which helps conduct long run times. A large work flow has a bunch of moving parts. If you change one stage you need to re run the computation to bring the results up to date <span class="citation">(<a href="#ref-landau2021TargetsPackageDynamic" role="doc-biblioref">Landau, 2021</a>)</span>. targets will show you the status of data, functions, etc. <a href="https://docs.ropensci.org/drake/">drake</a> is an older version of targets but has limitations which required a completely new software implementation <span class="citation">(<a href="#ref-landau2018DrakePackagePipeline" role="doc-biblioref">Landau, 2018</a>)</span>.</li>
 <li><a href="http://flow-r.github.io/flowr/">flowr</a> is an R package which helps design and implement complex analysis pipelines (think big data like bioinformatics).</li>
 </ul>
 </div>
@@ -287,6 +287,9 @@ e-mail: <code>m_wyatt.toure@mail.mcgill.ca</code>
 <div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-bertin2021CreatingOptimalConditions" class="csl-entry">
 Bertin AM, Baumer BS. 2021. Creating optimal conditions for reproducible data analysis in r with <span>“fertile.”</span> <em>Stat</em> <strong>10</strong>:e332. doi:<a href="https://doi.org/10.1002/sta4.332">https://doi.org/10.1002/sta4.332</a>
+</div>
+<div id="ref-landau2021TargetsPackageDynamic" class="csl-entry">
+Landau WM. 2021. The targets r package: A dynamic make-like function-oriented pipeline toolkit for reproducibility and high-performance computing. <em>Journal of Open Source Software</em> <strong>6</strong>:2959. doi:<a href="https://doi.org/10.21105/joss.02959">10.21105/joss.02959</a>
 </div>
 <div id="ref-landau2018DrakePackagePipeline" class="csl-entry">
 Landau WM. 2018. The drake r package: A pipeline toolkit for reproducibility and high-performance computing. <em>Journal of Open Source Software</em> <strong>3</strong>:550. doi:<a href="https://doi.org/10.21105/joss.00550">10.21105/joss.00550</a>

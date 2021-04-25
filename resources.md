@@ -49,7 +49,7 @@ On this page I list software and guides that I find/have found particularly usef
 ## Work flow management
 
 -   [reproducible](https://reproducible.predictiveecology.org/) is an R package that makes it easier to re-run code from scratch multiple times. The reason you would want this package if you work with very large raw data sets (*e.g.* spatial data for ecological niche models or bioinformatic data) that have very long pre processing steps [@mcintire2021ReproducibleSetTools].
--   [drake](https://docs.ropensci.org/drake/) is an R package which helps keep results up to date with the underlying code and data [@landau2018DrakePackagePipeline].
+-   [targets](https://docs.ropensci.org/targets/) is an R package which helps conduct long run times. A large work flow has a bunch of moving parts. If you change one stage you need to re run the computation to bring the results up to date [@landau2021TargetsPackageDynamic]. targets will show you the status of data, functions, etc. [drake](https://docs.ropensci.org/drake/) is an older version of targets but has limitations which required a completely new software implementation [@landau2018DrakePackagePipeline].
 -   [flowr](http://flow-r.github.io/flowr/) is an R package which helps design and implement complex analysis pipelines (think big data like bioinformatics).
 
 ## Reproducibility guides
