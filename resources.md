@@ -66,4 +66,4 @@ On this page I list software and guides that I find/have found particularly usef
 -   [Randomizr](https://github.com/rstudio/cheatsheets/blob/master/randomizr.pdf), an experimental treatment assignment package
 -   [dplyr](https://github.com/rstudio/cheatsheets/blob/master/data-transformation.pdf), a tidyverse data transformation package
 
-## References 
+## References
