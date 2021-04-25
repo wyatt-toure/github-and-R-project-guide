@@ -214,6 +214,8 @@ a.nav-list-link.active {
     box-sizing: border-box;
 }
 
+/* Laptop screens */
+
 @media only screen and (min-width: 1241px) and (max-width: 1440px) {
   .tocify {
     width: 21.5% !important;
@@ -223,6 +225,36 @@ a.nav-list-link.active {
 .tocify .list-group-item {
     border-radius: 0px !important;
     margin-left: 10% !important;
+} 
+  
+}
+
+/* Wider (1920px) screens */
+
+@media only screen and (min-width: 1680px) and (max-width: 1920px) {
+  .tocify {
+    width: 27.5% !important;
+    max-width: 27.5% !important;
+}
+
+.tocify .list-group-item {
+    border-radius: 0px !important;
+    margin-left: 35% !important;
+} 
+  
+}
+
+/* Wider (1920px) screens made smaller */
+
+@media only screen and (min-width: 1441px) and (max-width: 1679px) {
+  .tocify {
+    width: 24.5% !important;
+    max-width: 27.5% !important;
+}
+
+.tocify .list-group-item {
+    border-radius: 0px !important;
+    margin-left: 35% !important;
 } 
   
 }
