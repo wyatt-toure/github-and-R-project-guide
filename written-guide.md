@@ -5,6 +5,11 @@ csl: reference-info/elife-citation-style.csl
 link-citations: yes
 output:
   html_document:
+    toc: true
+    toc_depth: 4
+    toc_float:
+      collapsed: false
+      smooth_scroll: true
     includes:
       in_header: docs/header.html
       after_body: docs/footer.html
@@ -112,7 +117,7 @@ Always comment your code. Comments are what we call text inside a script that ar
 
 Since R scripts are essentially a series of function calls you should try to keep any custom functions you make in a `.R` ( R script) file separate from your main Rmarkdown analysis script and only source them when needed in your analysis script. This is the principle of making code modular *i.e.,* code is broken up into distinct components that perform specific tasks and are called when needed in a full script. This is useful for snippets of code that you repeatedly use throughout a script. Rather than copy and pasting certain steps that are performed multiple times, which is liable to copy-paste errors, writing a function that contains those steps and then calling that function when needed makes debugging easier. For example, if at some point you realize your code of interest is producing unexpected behaviour, rather than inspect all instances where you have copy and pasted code the performs task X you can simply inspect the function in its `.R` file, fix it there, and the changes will carryover to the entire script next time you run it. This modular organizing principle informs how we structure our entire project. We have different discrete inputs (data and R functions) that serve a distinct purpose and are compiled into an Rmarkdown analysis script as needed with the `read.csv()` and `source()` functions to produce our outputs (results, analysis documentation, manuscript).
 
-## Rmarkdown for generating integrated project directories {#rmarkdown}
+## Rmarkdown for integrated directories {#rmarkdown}
 
 Rmarkdown is a free R package that provides a documentation format for data science. In an Rmarkdown file you can write executable documents that incorporates runnable code chunks and plain text outside the code chunks. This allows you to create a map of your project, making it easier for future you or others who are interested in your project to see exactly what code you ran to get the results and figures you did and why you ran particular models by allowing you to write documentation alongside code. Thus, the inputs (data, R functions), outputs (figures, model results), code, and documentation for an analysis are integrated into one file whose changes can be tracked using version control software such as *Git* (Figure 1). Notably an Rmarkdown file is a plain text file format that can be rendered into several different file formats using the `render()` function on the Rmd file. Moreover, plots generated within an Rmd script can be saved to external directories such as a `figs/` directory by specifying a line to do so within the Rmd script.
 
