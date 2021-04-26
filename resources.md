@@ -21,23 +21,7 @@ csl: reference-info/elife-citation-style.csl
 <a href="index.html">GitHub and R guide</a> <a href="https://github.com/wyatt-toure/github-and-R-starter-guide" style = "float: right;"><i class="fab fa-github"></i> GitHub </a> <a href="resources.html" class="active" style = "float: right;"><i class="fas fa-toolbox"></i> Resources</a><a href="video-tutorial.html" style = "float: right;"><i class="fas fa-video"></i> Video tutorial</a><a href="written-guide.html" style = "float: right;"><i class="fas fa-book"></i> Written guide</a><a href="index.html" style = "float: right;"><i class="fas fa-home"></i> Home</a>
 :::
 
-<p class="author-name">
-
-M. Wyatt Toure[1]{.affil-mark}
-
-</p>
-
-<p class="author-affil">
-
-[1]{.affil-mark}McGill University, Department of Biology, 1205 Docteur Penfield, Montreal, Quebec H3A 1B1, Canada
-
-</p>
-
-<p>
-
-e-mail: `m_wyatt.toure@mail.mcgill.ca`
-
-</p>
+<p class="author-name">M. Wyatt Toure[1]{.affil-mark}</p><p class="author-affil">[1]{.affil-mark}McGill University, Department of Biology, 1205 Docteur Penfield, Montreal, Quebec H3A 1B1, Canada</p><p>e-mail: `m_wyatt.toure@mail.mcgill.ca`</p>
 
 ------------------------------------------------------------------------
 

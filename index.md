@@ -1,5 +1,5 @@
 ---
-title: "Project management with GitHub and R: A starter's guide"
+title: "Project management with Git, GitHub, and Rmarkdown: A starter's guide"
 output:
   html_document:
     includes:
