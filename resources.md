@@ -21,7 +21,23 @@ csl: reference-info/elife-citation-style.csl
 <a href="index.html">GitHub and R guide</a> <a href="https://github.com/wyatt-toure/github-and-R-starter-guide" style = "float: right;"><i class="fab fa-github"></i> GitHub </a> <a href="resources.html" class="active" style = "float: right;"><i class="fas fa-toolbox"></i> Resources</a><a href="video-tutorial.html" style = "float: right;"><i class="fas fa-video"></i> Video tutorial</a><a href="written-guide.html" style = "float: right;"><i class="fas fa-book"></i> Written guide</a><a href="index.html" style = "float: right;"><i class="fas fa-home"></i> Home</a>
 :::
 
-<p class="author-name">M. Wyatt Toure[1]{.affil-mark}</p><p class="author-affil">[1]{.affil-mark}McGill University, Department of Biology, 1205 Docteur Penfield, Montreal, Quebec H3A 1B1, Canada</p><p>e-mail: `m_wyatt.toure@mail.mcgill.ca`</p>
+<p class="author-name">
+
+M. Wyatt Toure[1]{.affil-mark}
+
+</p>
+
+<p class="author-affil">
+
+[1]{.affil-mark}McGill University, Department of Biology, 1205 Docteur Penfield, Montreal, Quebec H3A 1B1, Canada
+
+</p>
+
+<p>
+
+e-mail: `m_wyatt.toure@mail.mcgill.ca`
+
+</p>
 
 ------------------------------------------------------------------------
 
@@ -48,13 +64,13 @@ On this page I list software and guides that I find/have found particularly usef
 
 ## Work flow management
 
--   [reproducible](https://reproducible.predictiveecology.org/) is an R package that makes it easier to re-run code from scratch multiple times. The reason you would want this package if you work with very large raw data sets (*e.g.* spatial data for ecological niche models or bioinformatic data) that have very long pre processing steps [@mcintire2021ReproducibleSetTools].
+-   [reproducible](https://reproducible.predictiveecology.org/) is an R package that makes it easier to re-run code from scratch multiple times. A reason you would want this package is if you work with very large raw data sets (*e.g.* spatial data for ecological niche models or bioinformatic data) that have very long pre processing steps [@mcintire2021ReproducibleSetTools].
 -   [targets](https://docs.ropensci.org/targets/) is an R package which helps conduct long run times. A large work flow has a bunch of moving parts. If you change one stage you need to re run the computation to bring the results up to date [@landau2021TargetsPackageDynamic]. targets will show you the status of data, functions, etc. [drake](https://docs.ropensci.org/drake/) is an older version of targets but has limitations which required a completely new software implementation [@landau2018DrakePackagePipeline].
 -   [flowr](http://flow-r.github.io/flowr/) is an R package which helps design and implement complex analysis pipelines (think big data like bioinformatics).
 
 ## Reproducibility guides
 
--   [rOpenSci Reproducibility in Science A Guide to enhancing reproducibility in scientific results and writing](http://ropensci.github.io/reproducibility-guide/) is a website during an rOpenSci hackathon. It contains sections about writing code, storing data, and project work flows.
+-   [rOpenSci Reproducibility in Science A Guide to enhancing reproducibility in scientific results and writing](http://ropensci.github.io/reproducibility-guide/) is a website that was created during an rOpenSci hackathon. It contains sections about writing code, storing data, and project work flows.
 -   [The Turing Way](https://the-turing-way.netlify.app/welcome) is an extensive, open-source, community built guide for best practices in conducting reproducible, ethical, inclusive, and collaborative science. They go into much greater depth on several of the topics I have touched on in this guide.
 -   [R for Reproducible Scientific Analysis](http://swcarpentry.github.io/r-novice-gapminder/) contains the lesson materials for a workshop that teaches fundamentals of programming in R (the focus is not on teaching statistical analysis).
 
