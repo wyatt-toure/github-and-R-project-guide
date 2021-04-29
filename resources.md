@@ -18,7 +18,7 @@ csl: reference-info/elife-citation-style.csl
 ---
 
 ::: {.topnav}
-<a href="index.html">GitHub and R guide</a> <a href="https://github.com/wyatt-toure/github-and-R-starter-guide" style = "float: right;"><img src="github.svg" width = "20"></img> GitHub</a> <a href="resources.html" style = "float: right;" class="active"><img src="toolbox.svg" width ="20"></img> Resources</a><a href="video-tutorial.html" style = "float: right;"><img src="video.svg" width = "20"></img> Video tutorial</a><a href="written-guide.html" style = "float: right;"><img src="book.svg" width = "20"></i> Written guide</a> <a href="index.html" style = "float: right;"><img src="home.svg" width = "20"></img> Home</a>
+<a href="index.html">GitHub and R guide</a> <a href="https://github.com/wyatt-toure/github-and-R-starter-guide" style = "float: right;"><img src="github.svg" width = "20"></img> GitHub</a> <a href="resources.html" style = "float: right;" class="active"><img src="toolbox.svg" width ="20"></img> Resources</a><a href="video-tutorial.html" style = "float: right;"><img src="video.svg" width = "20"></img> Video tutorial</a><a href="written-guide.html" style = "float: right;"><img src="book.svg" width = "15"></i> Written guide</a> <a href="index.html" style = "float: right;"><img src="home.svg" width = "20"></img> Home</a>
 :::
 
 <p class="author-name">
