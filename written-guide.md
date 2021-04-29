@@ -24,10 +24,26 @@ knit: (function(input, ...) {
 ---
 
 ::: {.topnav}
-<a href="index.html">GitHub and R guide</a> <a href="https://github.com/wyatt-toure/github-and-R-starter-guide" style = "float: right;"><i class="fab fa-github"></i> GitHub</a> <a href="resources.html" style = "float: right;"><i class="fas fa-toolbox"></i> Resources</a><a href="video-tutorial.html" style = "float: right;"><i class="fas fa-video"></i> Video tutorial</a><a href="written-guide.html" class="active" style = "float: right;"><i class="fas fa-book"></i> Written guide</a> <a href="index.html" style = "float: right;"><i class="fas fa-home"></i> Home</a>
+<a href="index.html">GitHub and R guide</a> <a href="https://github.com/wyatt-toure/github-and-R-starter-guide" style = "float: right;"><img src="github.svg" width = "20"></img> GitHub</a> <a href="resources.html" style = "float: right;"><img src="toolbox.svg" width ="20"></img> Resources</a><a href="video-tutorial.html" style = "float: right;"><img src="video.svg" width = "20"></img> Video tutorial</a><a href="written-guide.html" class="active" style = "float: right;"><img src="book.svg" width = "20"></i> Written guide</a> <a href="index.html" style = "float: right;"><img src="home.svg" width = "20"></img> Home</a>
 :::
 
-<p class="author-name">M. Wyatt Toure[1]{.affil-mark}</p><p class="author-affil">[1]{.affil-mark}McGill University, Department of Biology, 1205 Docteur Penfield, Montreal, Quebec H3A 1B1, Canada</p><p>e-mail: `m_wyatt.toure@mail.mcgill.ca`</p>
+<p class="author-name">
+
+M. Wyatt Toure[1]{.affil-mark}
+
+</p>
+
+<p class="author-affil">
+
+[1]{.affil-mark}McGill University, Department of Biology, 1205 Docteur Penfield, Montreal, Quebec H3A 1B1, Canada
+
+</p>
+
+<p>
+
+e-mail: `m_wyatt.toure@mail.mcgill.ca`
+
+</p>
 
 ------------------------------------------------------------------------
 
@@ -123,7 +139,7 @@ In the 1600s a French philosopher by the name of Blaise Pascal wrote
 
 He said this in reference to writing a letter though he could just as easily have been talking about writing code. Good code is typically written in short, independent chunks. This is the principle of making code modular. Code is broken up into distinct components that perform independent, specific tasks such as data extraction, or data cleaning, or data modeling. With modular code, changing one piece of code has no effect on another piece of code. This is useful for making code reusable given R scripts are essentially a series of function calls. An input is run through a function which produces an output. This output becomes the input for the next independent function which produces another output (Figure 1). For example, you might have a function that calculates a behavioural metric from your raw data and another that filters these data points by removing missing values.
 
-Many R packages exist which contain useful pre-written functions that perform common tasks which are needed in the course of a standard analysis. The [tidyverse](https://www.tidyverse.org/) contains a set of useful and widely used set of packages designed for data science [@wickham2019WelcomeTidyverse]. They involve tools for data manipulation and visualization and I highly recommend them. In particular, [`tidyr`](https://tidyr.tidyverse.org/) for standardising data formatting, [`dplyr`](https://dplyr.tidyverse.org/) for data manipulation, and [`ggplot2`](https://ggplot2.tidyverse.org/) for data visualisation.
+Many R packages exist which contain useful pre-written functions that perform common tasks which are needed in the course of a standard analysis. The [tidyverse](https://www.tidyverse.org/) contains a set of convenient and widely used packages designed for data science [@wickham2019WelcomeTidyverse]. They involve tools for data manipulation and visualization and I highly recommend them. In particular, [`tidyr`](https://tidyr.tidyverse.org/) for standardising data formatting, [`dplyr`](https://dplyr.tidyverse.org/) for data manipulation, and [`ggplot2`](https://ggplot2.tidyverse.org/) for data visualisation.
 
 ![Figure 1: Graphical display of a potential R script. An input (e.g. raw data) is run through a function (depicted with the blue rounded rectangles), such as filter(), which produces an output that is the input for the next function. Each function performs an independent task related to the analysis.](images/functions.svg)
 
@@ -169,7 +185,7 @@ Branches let you work on different versions of the same files in parallel. Edits
 
 When committing changes you have to accompany the commit with a commit message. You will be tempted as a project goes on to have short uninformative commit messages such as "changes to file X". Resist this urge. Try to make commit messages as informative as possible, it will aid tremendously if you have to go back through your commits to investigate a particular change.
 
-![Figure 5:](images/gitbranching.svg){width="857"}
+![Figure 5:](images/gitbranching.svg){width="997"}
 
 GitHub is a service owned by Microsoft that allows one to store Git repositories online. These tools allow us to maintain an online record of file changes over time with each version being fully accessible should they need to be recalled in the future. GitHub lets you make private repositories so even if you don't end up making your GitHub repository public you can use it privately to keep track of your projects [@perez-riverol2016TenSimpleRules]. So you don't have to collaborate with GitHub but hosting a project on GitHub means at any time you can start collaborating with others easily. Additionally, you don't need to use GitHub to use Git. As the name suggests, GitHub is simply an online hub for Git repositories. You can host Git repositories locally without ever pushing changes to a server or you could get a personal internal server to remotely host your Git repository (a personal GitHub of sorts).
 

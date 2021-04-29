@@ -60,6 +60,12 @@ a {
 }  
 }
 
+/* Make it so that clicking references sends you straight there*/
+div.csl-entry {
+    margin-top: -60px;
+    padding-top: 60px;
+}
+
 /* Change header to flatter black */
 h1, h2, h3, h4, h5 {
   color:#222;
@@ -227,6 +233,7 @@ a.nav-list-link.active {
 * {
     box-sizing: border-box;
 }
+
 
 /* Laptop screens */
 
