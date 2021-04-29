@@ -2,8 +2,6 @@
 title: "Resources for R programming project management"
 output:
   html_document:
-    includes:
-      in_header: docs/header.html
     df_print: paged
     css: styles.css
     
@@ -18,26 +16,10 @@ csl: reference-info/elife-citation-style.csl
 ---
 
 ::: {.topnav}
-<a href="index.html">GitHub and R guide</a> <a href="https://github.com/wyatt-toure/github-and-R-starter-guide" style = "float: right;"><img src="github.svg" width = "20"></img> GitHub</a> <a href="resources.html" style = "float: right;" class="active"><img src="toolbox.svg" width ="20"></img> Resources</a><a href="video-tutorial.html" style = "float: right;"><img src="video.svg" width = "20"></img> Video tutorial</a><a href="written-guide.html" style = "float: right;"><img src="book.svg" width = "15"></i> Written guide</a> <a href="index.html" style = "float: right;"><img src="home.svg" width = "20"></img> Home</a>
+<a href="index.html">GitHub and R guide</a> <a href="https://github.com/wyatt-toure/github-and-R-starter-guide" style = "float: right;"><img src="images/github.svg" width="20"/></img> GitHub</a> <a href="resources.html" style = "float: right;" class="active"><img src="images/toolbox.svg" width="20"/></img> Resources</a><a href="video-tutorial.html" style = "float: right;"><img src="images/video.svg" width="20"/></img> Video tutorial</a><a href="written-guide.html" style = "float: right;"><img src="images/book.svg" width="15"/></i> Written guide</a> <a href="index.html" style = "float: right;"><img src="images/home.svg" width="20"/></img> Home</a>
 :::
 
-<p class="author-name">
-
-M. Wyatt Toure[1]{.affil-mark}
-
-</p>
-
-<p class="author-affil">
-
-[1]{.affil-mark}McGill University, Department of Biology, 1205 Docteur Penfield, Montreal, Quebec H3A 1B1, Canada
-
-</p>
-
-<p>
-
-e-mail: `m_wyatt.toure@mail.mcgill.ca`
-
-</p>
+<p class="author-name">M. Wyatt Toure[1]{.affil-mark}</p><p class="author-affil">[1]{.affil-mark}McGill University, Department of Biology, 1205 Docteur Penfield, Montreal, Quebec H3A 1B1, Canada</p><p>e-mail: `m_wyatt.toure@mail.mcgill.ca`</p>
 
 ------------------------------------------------------------------------
 
