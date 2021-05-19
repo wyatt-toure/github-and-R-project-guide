@@ -30,6 +30,8 @@ knit: (function(input, ...) {
 
 ------------------------------------------------------------------------
 
+*Note this is a work in progress*
+
 ## Introduction
 
 In research you will often find yourself handling several data, analysis code, manuscript, and figure files which can go through many intermediary stages based upon decisions you make during your project analysis. Not properly documenting changes across all these files and the decisions that underly these changes can lead to difficulties in re-tracing our steps [@perkel2020]. This then cascades into difficulties for others to retrace our steps [@ioannidis2009RepeatabilityPublishedMicroarray]. Moreover, in programming languages with large communities, such as R, many of these steps can be mediated by community built suites of functions that perform specific tasks called packages [@wickham2019WelcomeTidyverse; @bates2015FittingLinearMixedEffects]. Over time these packages can undergo changes across different versions that may change their behaviour in the future. Given the many software dependencies modern analyses typically rely on, the metadata concerning the software and software versions used can be just as crucial in reproducing an analysis as the code and data. Keeping track of data, code, software, and software versions are therefore important steps in reproducing analyses for yourself and others.
